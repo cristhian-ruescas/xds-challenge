@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    loadbalancer:
+      ribbon:
+        enable: true
+
+ServiceName:
+  ribbon:
+    listOfServers: http://localhost:8000,http://localhost:8001
